@@ -1,19 +1,17 @@
-# EDA no clima de João Pessoa, Campina Grande e Patos
+# Mais EDA no clima de João Pessoa, Campina Grande e Patos
 
 João Pessoa, Campina Grande e Patos são 3 referências para entender o clima na Paraíba. A primeira cidade está no litoral, a segunda próximo ao topo da Serra da Borborema, e a terceira no Sertão. Nesse exercício, você experimentará com o processo de análise exploratória dos dados usando dados dessas 3 cidades. O resultado será um relatório em RMarkdown e publicado online (instruções para publicar mais abaixo).
 
 ## As perguntas
-Nesse exercício, escolha pelo menos 2 das 4 perguntas abaixo e as responda no seu relatório:
+Nesse exercício, vocês responderão 3 perguntas. Duas devem vir das perguntas abaixo, e a 3a vocês devem criar, seguindo o mesmo estilo das abaixo:
 
-1. Como foi o vento nessas 3 cidades no ano que já analisei (2019)? Como isso complementa a imagem que já temos de como foi o clima em 2019 nessas cidades?
-1. Considerando apenas as semanas no período de janeiro e fevereiro (pico do verão), como foi o calor das 3 cidades nos últimos anos?
-1. Como a umidade das 3 cidades varia ao longo do ano? 
-1. Como você descreveria a temperatura das festas juninas das 3 cidades nos últimos anos?
-
+1. Considerando os meses de férias normais da UFCG e escolhendo uma das cidades (a mais próxima de onde você passa férias), quais as semelhanças e diferenças entre a temperatura e as chuvas nos meses de férias e nos meses de aula? Quando o clima é melhor? 
+2. Compare a distribuição de chuvas nas 3 cidades, comparando tanto como são as semanas de muita chuva quanto com que frequência as cidades passam a semanas sem chuva.
+3. Compare o quanto essas 3 cidades têm meses claramente mais quentes/frios. Em qual delas há épocas mais diferentes?
 
 ## Instruções 
 
-Use como ponto de partida o Notebook `reports/exploracao.Rmd`. Coloque no início do documento uma frase dizendo os números das questões que você respondeu, mas não copie as perguntas tal como estão aqui no seu relatório. Use títulos e texto para criar um relatório que possa ser compreendido por alguém que não está no curso e que não pareça um dever de casa de um livro texto :).  Mas me ajude colocando em negrito no relatório os trechos com suas conclusões para cada pergunta.
+Use como ponto de partida o Notebook `reports/exploracao.Rmd`. Use títulos e texto para criar um relatório que possa ser compreendido por alguém que não está no curso e que não pareça um dever de casa de um livro texto :).  Mas me ajude colocando em negrito no relatório os trechos com suas conclusões para cada pergunta.
 
 Importante: sempre que for programar no RStudio, abra o arquivo do projeto (`l1p1.Rproj`) na raiz do repositório. Isso abre o projeto com o diretório de trabalho correto, e facilita sua vida.
 
@@ -21,9 +19,7 @@ Importante: sempre que for programar no RStudio, abra o arquivo do projeto (`l1p
 
 > A estrutura que você seguirá para cada pergunta é: (1) formular uma pergunta, (2) dizer que dados usará para responder a pergunta -- se você filtrará, transformará, etc.os originais, (3) mostrar alguma visão construída com esses dados -- geralmente uma visualização e (4) interpretar com um ou dois parágrafos de texto essa evidência.
 
-Além disso, esse é um exercício sobre descrição de distribuições de valores. Não queremos agora falar em média, mediana, nada disso. Queremos descrever distribuições de valores. Use os conceitos de faixa de valores, concentração, simetria, pontos extremos e cauda para descrever cada distribuiçào que você usar. No fim, a resposta sobre como chove nas 3 cidades por exemplo poderia comentar tanto que a cidade X é aquela que tem semanas com maiores chuvas quanto que essa mesmas cidade tem mais semanas sem chuva. 
-
-Sendo um exercício sobre distribuições, exercite o uso de gráficos de pontos, histogramas e gráficos de densidade. Você pode usar gráficos de linha do tempo (colocando o tempo em um eixo), mas não use apenas ele para nenhuma pergunta.
+Além disso, esse é um exercício sobre descrição de distribuições de valores **usando visualização e sumários estatísticos**. Agora já queremos agora falar em média, mediana, etc., mas lembre do datassauro e **nunca use apenas o sumário**. Queremos sempre descrever também as distribuições de valores. Use os conceitos de faixa de valores, concentração, simetria, pontos extremos e cauda para descrever cada distribuiçào que você usar. 
 
 Atenção para dados faltantes. É importante saber o que temos e o que não temos na hora de tirar conclusões.
 
